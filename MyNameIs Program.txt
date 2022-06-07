@@ -1,0 +1,15 @@
+public class MyNameIs {
+    public class HelloWorld {
+        public static void main(String[] args) {
+            String first, last;
+            scanner sc = new Scanner(System.in);
+            System.out.println(" Please enter your first and last name.");
+            System.out.println("Do not forget to press the Enter key. ");
+            first = sc.next();
+            last = sc.next();
+            System.out.println("\nThis is my first program!");
+            Ststem.out.println("My name is: " + first + " " + last);
+        }
+    }
+
+        }
